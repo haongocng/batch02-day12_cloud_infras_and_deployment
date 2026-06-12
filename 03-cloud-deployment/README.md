@@ -1,5 +1,5 @@
 # Section 3 — Cloud Deployment Options
-
+-> Chọn 1 trong 2 railway / render để deploy !
 ## 3 Tier: Chọn Platform Theo Nhu Cầu
 
 | Tier | Platform | Khi nào dùng | Thời gian deploy |
