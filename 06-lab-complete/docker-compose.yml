@@ -7,9 +7,10 @@ services:
       - "8000:8000"
     environment:
       - ENVIRONMENT=staging
-      - APP_NAME=Production AI Agent
+      - APP_NAME=DrugLaw RAG Production API
       - REDIS_URL=redis://redis:6379/0
     env_file:
+      - .env
       - .env.local
     depends_on:
       redis:

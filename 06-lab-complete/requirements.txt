@@ -1,7 +1,16 @@
+# Day 12 production API
 fastapi==0.115.0
 uvicorn[standard]==0.30.0
 pydantic==2.9.0
 pyjwt==2.9.0
-python-dotenv==1.0.1
+python-dotenv>=1.0.0
 redis==5.1.0
 psutil==6.0.0
+requests>=2.31.0
+numpy>=1.26.0
+
+# Day 08 RAG API runtime
+openai>=1.30.0
+rank-bm25>=0.2.2
+weaviate-client>=4.5.0
+langchain-text-splitters>=0.2.0

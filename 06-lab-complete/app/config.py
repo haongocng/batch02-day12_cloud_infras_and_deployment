@@ -2,6 +2,14 @@
 import os
 import logging
 from dataclasses import dataclass, field
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+load_dotenv(PROJECT_ROOT / ".env")
+load_dotenv(PROJECT_ROOT / ".env.local", override=True)
 
 
 @dataclass
@@ -18,7 +26,21 @@ class Settings:
 
     # LLM
     openai_api_key: str = field(default_factory=lambda: os.getenv("OPENAI_API_KEY", ""))
-    llm_model: str = field(default_factory=lambda: os.getenv("LLM_MODEL", "gpt-4o-mini"))
+    openrouter_api_key: str = field(default_factory=lambda: os.getenv("OPENROUTER_API_KEY", ""))
+    openrouter_base_url: str = field(
+        default_factory=lambda: os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
+    )
+    llm_model: str = field(
+        default_factory=lambda: os.getenv(
+            "OPENROUTER_MODEL",
+            os.getenv("OPENAI_MODEL", os.getenv("LLM_MODEL", "gpt-4o-mini")),
+        )
+    )
+    jina_api_key: str = field(default_factory=lambda: os.getenv("JINA_API_KEY", ""))
+    cohere_api_key: str = field(default_factory=lambda: os.getenv("COHERE_API_KEY", ""))
+    weaviate_url: str = field(default_factory=lambda: os.getenv("WEAVIATE_URL", ""))
+    weaviate_api_key: str = field(default_factory=lambda: os.getenv("WEAVIATE_API_KEY", ""))
+    pageindex_api_key: str = field(default_factory=lambda: os.getenv("PAGEINDEX_API_KEY", ""))
 
     # Security
     agent_api_key: str = field(default_factory=lambda: os.getenv("AGENT_API_KEY", "dev-key-change-me"))
@@ -47,8 +69,14 @@ class Settings:
                 raise ValueError("AGENT_API_KEY must be set in production!")
             if self.jwt_secret == "dev-jwt-secret":
                 raise ValueError("JWT_SECRET must be set in production!")
-        if not self.openai_api_key:
-            logger.warning("OPENAI_API_KEY not set — using mock LLM")
+        if not self.openai_api_key and not self.openrouter_api_key:
+            logger.warning("No OPENAI_API_KEY or OPENROUTER_API_KEY set - RAG generation will use fallback")
+        if not self.jina_api_key:
+            logger.warning("No JINA_API_KEY set - reranking will use original retrieval scores")
+        if not self.cohere_api_key:
+            logger.warning("No COHERE_API_KEY set - semantic embeddings may fall back")
+        if not self.weaviate_url or not self.weaviate_api_key:
+            logger.warning("No WEAVIATE_URL/WEAVIATE_API_KEY set - vector DB retrieval may fall back")
         return self
 
 

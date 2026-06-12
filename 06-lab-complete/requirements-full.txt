@@ -1,0 +1,17 @@
+# Full Day 08 dependency list kept for reproducibility.
+# Do not install this in the production Docker image unless you need ingestion,
+# Streamlit UI, or offline evaluation. Some packages pull PyTorch and make
+# Docker builds much slower/larger.
+
+-r requirements.txt
+
+# Day 08 ingestion/conversion utilities
+beautifulsoup4>=4.12.0
+crawl4ai>=0.3.0
+markitdown>=0.1.0
+pageindex>=0.1.0
+
+# Day 08 optional embedding/evaluation/UI utilities
+sentence-transformers>=2.2.0
+streamlit>=1.35.0
+deepeval>=1.0.0

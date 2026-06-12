@@ -34,3 +34,10 @@ Thumbs.db
 # ── Docker volumes (local dev) ─────────────────────��──────
 data/
 volumes/
+
+# Day 12 final project needs the local RAG index for build/deploy.
+!06-lab-complete/data/
+!06-lab-complete/data/index/
+!06-lab-complete/data/index/chunks.json
+!06-lab-complete/data/index/embeddings.npy
+!06-lab-complete/data/index/index_meta.json

@@ -1,0 +1,21 @@
+# DANH SÁCH URL BÀI BÁO CẦN CRAWL
+# Chủ đề: Nghệ sĩ Việt Nam liên quan tới ma túy
+# Format: Mỗi URL một dòng (bỏ qua dòng comment bắt đầu bằng #)
+
+# 1. Thanh Niên - vụ Chi Dân, An Tây, Trúc Phương bị bắt
+https://thanhnien.vn/bat-giam-ca-si-chi-dan-nguoi-mau-an-tay-tiktoker-truc-phuong-do-lien-quan-ma-tuy-185241114132305664.htm
+
+# 2. Dân trí - khởi tố, bắt giam người mẫu Andrea Aybar, ca sĩ Chi Dân
+https://dantri.com.vn/phap-luat/khoi-to-bat-giam-nguoi-mau-andrea-aybar-ca-si-chi-dan-20241114115057035.htm
+
+# 3. VOV - truy tố ca sĩ Chi Dân, người mẫu An Tây, Trúc Phương
+https://vov.vn/phap-luat/truy-to-ca-si-chi-dan-nguoi-mau-an-tay-co-tien-tu-thien-truc-phuong-post1280703.vov
+
+# 4. Pháp Luật TP.HCM - chuyên án VN10, liên can của Chi Dân, An Tây
+https://plo.vn/chuyen-an-vn10-su-lien-can-cua-ca-si-chi-dan-nguoi-mau-an-tay-post902289.html
+
+# 5. Tuổi Trẻ - diễn viên hài Hữu Tín bị khởi tố, bắt tạm giam
+https://tuoitre.vn/dien-vien-hai-huu-tin-bi-khoi-to-bat-tam-giam-vi-ma-tuy-20220617185327576.htm
+
+# 6. Công an Nhân dân - Hữu Tín bị tạm giữ vì liên quan ma túy
+https://cand.com.vn/ban-tin-113/dien-vien-hai-huu-tin-bi-tam-giu-vi-lien-quan-den-ma-tuy-i656947/

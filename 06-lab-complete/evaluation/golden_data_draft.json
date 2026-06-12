@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Hình phạt cho tội tàng trữ trái phép chất ma túy theo Điều 249 Bộ luật Hình sự là gì?",
+    "expected_answer": "Theo Điều 249 Bộ luật Hình sự 2015 (sửa đổi 2017), hình phạt cho tội tàng trữ trái phép chất ma túy phụ thuộc vào khối lượng: (1) Từ 1g đến dưới 5g heroin hoặc cocaine: phạt tù từ 1-5 năm; (2) Từ 5g đến dưới 15g: phạt tù từ 5-10 năm; (3) Từ 15g trở lên: phạt tù từ 10-20 năm hoặc tù chung thân. Người phạm tội còn có thể bị phạt tiền, tịch thu tài sản và cấm đảm nhiệm chức vụ.",
+    "expected_context": "Bộ luật Hình sự 2015 (sửa đổi 2017), Điều 249: Tội tàng trữ trái phép chất ma túy",
+    "category": "legal",
+    "difficulty": "medium"
+  },
+  {
+    "id": 2,
+    "question": "Luật Phòng chống ma túy 2021 quy định những hình thức cai nghiện nào?",
+    "expected_answer": "Luật Phòng chống ma túy 2021 quy định 4 hình thức cai nghiện: (1) Cai nghiện tự nguyện tại gia đình, (2) Cai nghiện tự nguyện tại cộng đồng, (3) Cai nghiện tự nguyện tại cơ sở cai nghiện, và (4) Cai nghiện bắt buộc tại cơ sở cai nghiện. Thời gian cai nghiện bắt buộc từ 12 đến 24 tháng tùy theo tình trạng người nghiện.",
+    "expected_context": "Luật Phòng chống ma túy 2021, Chương V: Cai nghiện ma túy, Điều 32-38",
+    "category": "legal",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "Ca sĩ Chi Dân và người mẫu An Tây bị bắt vì hành vi gì liên quan đến ma túy?",
+    "expected_answer": "Theo thông tin từ Công an TP.HCM ngày 14.10, ca sĩ Chi Dân và người mẫu An Tây (Nguyễn Thị An) bị khởi tố, bắt tạm giam về hành vi tổ chức sử dụng trái phép chất ma túy. Riêng người mẫu An Tây còn bị khởi tố thêm về hành vi tàng trữ trái phép chất ma túy. Họ là một phần của chuyên án triệt phá đường dây ma túy lớn từ Pháp về Việt Nam.",
+    "expected_context": "Bài báo từ Thanh Niên: Bắt giam ca sĩ Chi Dân, người mẫu An Tây, TikToker Trúc Phương do liên quan ma túy",
+    "category": "news",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Danh mục chất ma túy nhóm I theo pháp luật Việt Nam gồm những chất nào?",
+    "expected_answer": "Danh mục chất ma túy nhóm I (các chất tuyệt đối cấm sử dụng trong y học và đời sống) bao gồm: heroin (diacetylmorphine), cocaine và các muối của chúng, methamphetamine (ma túy đá), MDMA (ecstasy), cannabis và các chế phẩm từ cần sa, cùng các chất tương tự. Đây là những chất có tác dụng gây nghiện mạnh và nguy hiểm cao nhất.",
+    "expected_context": "Nghị định 57/2022/NĐ-CP về Danh mục chất ma túy, tiền chất và thuốc gây nghiện, Phụ lục I",
+    "category": "legal",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "question": "Chuyên án triệt phá đường dây ma túy từ Pháp về Việt Nam đã khởi tố bao nhiêu bị can?",
+    "expected_answer": "Theo thông tin từ Công an TP.HCM, chuyên án triệt phá đường dây ma túy qua đường hàng không từ Pháp về Việt Nam (bắt đầu từ 16.3.2023) đã triệt phá gần 500 đường dây và băng nhóm tội phạm về ma túy, khởi tố tổng cộng 1.132 bị can. Ngoài ra, cơ quan điều tra đã thu giữ 323,5 kg ma túy các loại và làm rõ các giao dịch mua bán ma túy với tổng số tiền hơn 28.000 tỷ đồng.",
+    "expected_context": "Bài báo từ Thanh Niên về chuyên án triệt phá đường dây ma túy, ngày 14.10",
+    "category": "news",
+    "difficulty": "hard"
+  },
+  {
+    "id": 6,
+    "question": "Tội vận chuyển trái phép chất ma túy theo Điều 250 Bộ luật Hình sự bị xử phạt như thế nào?",
+    "expected_answer": "Theo Điều 250 Bộ luật Hình sự, tội vận chuyển trái phép chất ma túy có mức phạt nghiêm khắc hơn tội tàng trữ: (1) Vận chuyển từ 100g đến dưới 300g heroin: phạt tù từ 7-15 năm; (2) Từ 300g đến dưới 600g: phạt tù từ 15-20 năm; (3) Từ 600g trở lên: tù chung thân hoặc tử hình. Người phạm tội còn có thể bị phạt tiền từ 50-500 triệu đồng, tịch thu tài sản.",
+    "expected_context": "Bộ luật Hình sự 2015 (sửa đổi 2017), Điều 250: Tội vận chuyển trái phép chất ma túy",
+    "category": "legal",
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "question": "Người sử dụng trái phép chất ma túy lần đầu bị xử lý như thế nào theo Luật Phòng chống ma túy 2021?",
+    "expected_answer": "Theo Luật Phòng chống ma túy 2021, người sử dụng trái phép chất ma túy lần đầu tiên có thể bị: (1) Xử phạt vi phạm hành chính với mức phạt tiền từ 500.000 đến 2.000.000 đồng, (2) Áp dụng biện pháp giáo dục tại xã, phường, thị trấn, hoặc (3) Đưa vào cơ sở cai nghiện tự nguyện. Nếu tái phạm hoặc không chấp hành, có thể bị đưa đi cai nghiện bắt buộc.",
+    "expected_context": "Luật Phòng chống ma túy 2021, Chương IV: Xử lý vi phạm pháp luật về phòng chống ma túy",
+    "category": "legal",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "Thời gian cai nghiện bắt buộc theo quy định của Luật Phòng chống ma túy 2021 là bao lâu?",
+    "expected_answer": "Theo Điều 37 Luật Phòng chống ma túy 2021, thời gian cai nghiện bắt buộc tại cơ sở cai nghiện là từ 12 tháng đến 24 tháng. Thời gian cụ thể được xác định dựa trên tình trạng nghiện, sức khỏe và kết quả cai nghiện của người nghiện. Người nghiện có thể được giảm thời gian nếu có tiến bộ tốt hoặc kéo dài nếu chưa đạt yêu cầu.",
+    "expected_context": "Luật Phòng chống ma túy 2021, Điều 37: Thời hạn cai nghiện bắt buộc",
+    "category": "legal",
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "Tội tổ chức sử dụng trái phép chất ma túy bị xử phạt ra sao theo pháp luật Việt Nam?",
+    "expected_answer": "Theo Điều 255 Bộ luật Hình sự 2015, tội tổ chức sử dụng trái phép chất ma túy bị phạt tù từ 2 năm đến 7 năm. Nếu phạm tội có tính chất chuyên nghiệp, có tổ chức, lôi kéo nhiều người hoặc tái phạm nguy hiểm, mức phạt có thể lên đến 12 năm tù. Người phạm tội còn có thể bị phạt tiền từ 10-100 triệu đồng.",
+    "expected_context": "Bộ luật Hình sự 2015, Điều 255: Tội tổ chức sử dụng trái phép chất ma túy",
+    "category": "legal",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "question": "Ai là TikToker Trúc Phương bị bắt cùng ca sĩ Chi Dân và người mẫu An Tây?",
+    "expected_answer": "TikToker Trúc Phương (tên đầy đủ: Nguyễn Đỗ Trúc Phương) là một trong những người có ảnh hưởng lớn trên mạng xã hội bị Công an TP.HCM khởi tố, bắt tạm giam cùng ca sĩ Chi Dân và người mẫu An Tây về hành vi tổ chức sử dụng trái phép chất ma túy trong chuyên án triệt phá đường dây ma túy từ Pháp về Việt Nam.",
+    "expected_context": "Bài báo Thanh Niên về vụ bắt giữ các nghệ sĩ và người nổi tiếng liên quan ma túy",
+    "category": "news",
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "question": "Nghị định 105/2021/NĐ-CP hướng dẫn thi hành những nội dung gì của Luật Phòng chống ma túy?",
+    "expected_answer": "Nghị định 105/2021/NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng chống ma túy 2021, bao gồm: (1) Quản lý chất ma túy và tiền chất sử dụng hợp pháp, (2) Cai nghiện ma túy và quản lý sau cai nghiện, (3) Quản lý người nghiện và người sử dụng trái phép, (4) Trách nhiệm của các cơ quan, tổ chức trong phòng chống ma túy, (5) Chế độ báo cáo và thống kê về tình hình ma túy.",
+    "expected_context": "Nghị định 105/2021/NĐ-CP ngày 04/12/2021 hướng dẫn Luật Phòng chống ma túy",
+    "category": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "id": 12,
+    "question": "Hình phạt bổ sung nào có thể áp dụng cho các tội phạm về ma túy?",
+    "expected_answer": "Theo Bộ luật Hình sự, các hình phạt bổ sung có thể áp dụng cho tội phạm ma túy bao gồm: (1) Phạt tiền từ 10 triệu đến 500 triệu đồng tùy mức độ tội phạm, (2) Tịch thu toàn bộ hoặc một phần tài sản, (3) Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 1-5 năm, (4) Cấm cư trú từ 1-5 năm, (5) Quản chế hoặc cải tạo không giam giữ từ 1-3 năm.",
+    "expected_context": "Bộ luật Hình sự 2015, các điều về tội phạm ma túy (Điều 248-255)",
+    "category": "legal",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "question": "Số tiền giao dịch mua bán ma túy mà cơ quan điều tra làm rõ trong chuyên án là bao nhiêu?",
+    "expected_answer": "Theo thông tin từ Công an TP.HCM, bước đầu cơ quan điều tra đã làm rõ các nghi phạm, nghi can đã giao dịch mua bán ma túy với số tiền hơn 28.000 tỷ đồng trong chuyên án triệt phá đường dây ma túy từ Pháp về Việt Nam. Con số này cho thấy quy mô vô cùng lớn của đường dây buôn bán ma túy xuyên quốc gia.",
+    "expected_context": "Bài báo Thanh Niên về chuyên án ma túy, thông tin về số tiền giao dịch",
+    "category": "news",
+    "difficulty": "medium"
+  },
+  {
+    "id": 14,
+    "question": "Tiền chất ma túy là gì và bị quản lý như thế nào theo pháp luật Việt Nam?",
+    "expected_answer": "Tiền chất ma túy là các chất hóa học được sử dụng để chế biến, sản xuất chất ma túy. Theo pháp luật Việt Nam, tiền chất được phân thành 2 bảng (Bảng I và Bảng II) và bị kiểm soát chặt chẽ. Việc sản xuất, mua bán, vận chuyển tiền chất phải có giấy phép từ cơ quan có thẩm quyền. Sử dụng trái phép tiền chất để chế tạo ma túy bị xử lý hình sự nghiêm khắc như tội chế tạo ma túy.",
+    "expected_context": "Luật Phòng chống ma túy 2021 và Nghị định về quản lý tiền chất ma túy",
+    "category": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "id": 15,
+    "question": "Ca sĩ Chi Dân đã hoạt động nghệ thuật từ năm nào và từng bị nghi liên quan ma túy trước đây chưa?",
+    "expected_answer": "Ca sĩ Chi Dân bắt đầu hoạt động nghệ thuật từ năm 2012 với vai trò ca sĩ và nhạc sĩ. Năm 2023, mạng xã hội từng lan truyền hình ảnh Chi Dân được cho là bị cơ quan chức năng mời lên làm rõ vì nghi liên quan đến sử dụng ma túy, tuy nhiên thời điểm đó phía đại diện nam ca sĩ đã bác bỏ thông tin này. Đến tháng 10/2024, anh chính thức bị khởi tố bắt giam.",
+    "expected_context": "Bài báo Thanh Niên về Chi Dân, phần lý lịch và scandal trước đây",
+    "category": "news",
+    "difficulty": "medium"
+  }
+]

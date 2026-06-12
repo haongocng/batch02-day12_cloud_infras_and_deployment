@@ -1,0 +1,12 @@
+{
+  "chunking_method": "recursive",
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "embedding_provider": "cohere",
+  "embedding_model": "embed-multilingual-v3.0",
+  "embedding_dim": 1024,
+  "vector_store": "weaviate",
+  "weaviate_collection": "DrugLawDocs",
+  "num_chunks": 1481,
+  "chunks_signature": "b0665d4f3c0458d0205c5e55becc561b23ef8d877b3eb75337a208d1f2a8619c"
+}
